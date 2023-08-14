@@ -1,0 +1,89 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+}
+h1 span {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 5%;
+}
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+.half-width p {
+  text-align: justify;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.top-banner {
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experience-area {
+  background-image: url(image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-item {
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 2%;
+  padding-right: 1%;
+  box-shadow: 10px 10px 40px grey;
+  text-align: justify;
+}
+h2 {
+  font-size: 40px;
+}
+#fullstack-developer {
+  border-left: 10px solid blue;
+}
+#baby-developer {
+  border-left: 10px solid tomato;
+}
+footer {
+  height: 300px;
+  background-color: #ff700a;
+}
+footer ul {
+  display: flex;
+  margin-left: 38%;
+}
+footer ul li {
+  list-style: none;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+.cnt {
+  text-align: center;
+  font-size: 50px;
+}
+.tnt {
+  text-align: center;
+  font-size: 25px;
+}
+footer ul li a {
+  color: black;
+}
